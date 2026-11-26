@@ -1,0 +1,14 @@
+# 运行必需的依赖
+# 安装：pip install -r requirements.txt
+#
+# 注意：语音识别（faster-whisper）会顺带装 torch，体积较大（几百 MB），
+# 第一次安装慢是正常的。
+
+streamlit>=1.57,<2
+requests>=2.28
+pandas>=2.0
+numpy>=1.24
+edge-tts>=7.0
+faster-whisper>=1.0
+pydub>=0.25
+python-docx>=1.1

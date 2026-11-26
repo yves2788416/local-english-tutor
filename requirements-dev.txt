@@ -1,0 +1,10 @@
+# 只有「重建内容」时才需要的依赖
+# 日常使用不需要装这些。
+#
+#   pip install -r requirements-dev.txt
+
+# tools/build_wordbank.py 用来把 Tatoeba 例句从繁体转成简体
+zhconv>=1.4
+
+# tools/ 里的截图脚本（可选，用于维护 README 的预览图）
+playwright>=1.40

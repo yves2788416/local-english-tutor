@@ -1,0 +1,12 @@
+# 统一换行符：Windows 的 .bat 必须保持 CRLF，否则 cmd 可能解析异常
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制，不要做任何转换
+*.png binary
+*.ico binary
+*.jpg binary
+*.mp3 binary
+*.wav binary
+*.db binary
